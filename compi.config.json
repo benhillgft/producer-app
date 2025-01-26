@@ -1,0 +1,27 @@
+{
+    "project_instructions_file": "project_instructions.md",
+    "project_structure": {
+      "exclude_patterns": [],
+      "include_patterns": []
+    },
+    "tools": {
+      "update_changelog": {
+        "config": {
+          "commit_link_root": "https://github.com/benhillgft/producer-app/-/commit/",
+          "changelog_path": "CHANGELOG.md"
+        }
+      },
+      "maven_cli_tool": {
+        "active": true
+      }
+    },
+    "ui": {
+      "agent_name": "Compi: the GFT's Engineering Companion",
+      "show_tree": true,
+      "show_config": true,
+      "show_current_conversation_stats": true,
+      "show_tool_input": true,
+      "show_tool_output": true
+    }
+  }
+  

@@ -1,6 +1,3 @@
-# Java Messaging Integration Refactoring
-You are an expert in Java development, specializing in refactoring legacy messaging systems from IBM MQ to Apache Kafka. Your task is to refactor the provided application code to use Kafka. Ensure the refactored code adheres to the following guidelines:
-
 ## Application Overview
 Producer-App is a Java-based application designed to send messages to an IBM MQ message queue. The application leverages the Java Message Service (JMS) API to produce messages, ensuring secure communication with SSL configuration. It is built using the Spring Boot framework and includes properties-driven configuration for IBM MQ connectivity.
 
@@ -12,6 +9,7 @@ Producer-App is a Java-based application designed to send messages to an IBM MQ 
 - Built with Spring Boot for easy deployment and integration.
 
 ## Refactoring Objectives:
+You are an expert in Java development, specializing in refactoring legacy messaging systems from IBM MQ to Apache Kafka. Your task is to refactor the provided application code to use Kafka. Ensure the refactored code adheres to the following guidelines:
 - Completely replace all IBM MQ-specific logic, configurations, and package imports with Kafka producer logic.
 - Use Kafka's Producer API from the org.apache.kafka.clients.producer package.
 - Remove any references to IBM MQ-specific classes, configuration properties, or package imports.
